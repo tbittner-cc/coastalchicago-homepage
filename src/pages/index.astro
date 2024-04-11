@@ -1,11 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { Image } from 'astro:assets';
+import { Picture } from 'astro:assets';
 import coastalChicagoLogo from '../images/coastal-chicago-logo.png'
 ---
 
 <Layout title="Coastal Chicago LLC">
-	<main>
-	<Image src={coastalChicagoLogo} alt="The Coastal Chicago LLC logo." />
+	<main class="container-fluid">
+	<Picture src={coastalChicagoLogo} alt="The Coastal Chicago LLC logo." />
+	<div class='horizontal-line'></div>
+	<div class='horizontal-line'></div>
 	</main>
 </Layout>
