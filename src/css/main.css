@@ -23,10 +23,11 @@
     font-size: .75em;
     margin-top: .50rem;
     text-align: right;
+    margin-top: 3rem;
 }
 
 .blog {
-    margin-top: 4rem;
+    margin-top: 3rem;
     width:25%;
     margin-left: auto;
     margin-right:auto;
