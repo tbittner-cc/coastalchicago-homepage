@@ -10,9 +10,15 @@ import chicagoBotDogLogo from '../images/chicago-bot-dog-logo.png';
 	<Picture src={coastalChicagoLogo} alt="The Coastal Chicago LLC logo."/>
 	<div class='horizontal-line'></div>
 	<div class='horizontal-line'></div>
-	<div class="grid">
 	<div class="tagline">
 		Providing straightforward solutions to your complex technology and organizational issues.
+	</div>
+	<div class="blog">
+		<div>Find our blog at</div>
+		<a href="https://chicagobotdog.com">
+		<Picture src={chicagoBotDogLogo} alt="Chicago Bot Dog blog." 
+			width={300}/> 
+		</a>
 	</div>
 	<div class="contact">
 		Contact us at 
@@ -22,14 +28,6 @@ import chicagoBotDogLogo from '../images/chicago-bot-dog-logo.png';
 			document.write('<a href=\"mailto:' + user + '@' + site + '\">');
 			document.write(user + '@' + site + '</a>');
 		</script>
-	</div>
-	</div>
-	<div class="blog">
-		<div>Find our blog at</div>
-		<a href="https://chicagobotdog.com" target="_blank">
-		<Picture src={chicagoBotDogLogo} alt="Chicago Bot Dog blog." 
-			width={300}/> 
-		</a>
 	</div>
 	</main>
 </Layout>
